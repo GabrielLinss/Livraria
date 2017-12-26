@@ -1,2 +1,2 @@
 # Livraria
-Sistema de livraria
+Sistema de livraria PHPOO MVC
