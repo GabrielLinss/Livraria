@@ -11,7 +11,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css"/>
-	<link rel="stylesheet" type="text/css" href="../css/estilo.css"/>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/jquery-3.1.0.min.js"></script>
 </head>
@@ -25,16 +24,16 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a href="visualizar_livrosView.php" class="navbar-brand"><img src="../img/brand.png" width="60" height="50"></a>
+			<a href="visualizar_livros.php" class="navbar-brand"><img src="../img/brand.png" width="60" height="50"></a>
 		</div>
 		<div class="collapse navbar-collapse" id="menu">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="visualizar_livrosView.php"><span class="glyphicon glyphicon-home"></span> Livros</a></li>
-				<li><a href="cadastrar_livroView.php"><span class="glyphicon glyphicon-plus"></span> Cadastrar Livro</a></li>
-				<li><a href="visualizar_vendasView.php"><span class="glyphicon glyphicon-list"></span> Vendas</a></li>
-				<li><a href="visualizar_estoqueView.php"><span class="glyphicon glyphicon-list"></span> Estoque</a></li>
-				<li><a href="visualizar_caixaView.php"><span class="glyphicon glyphicon-usd"></span> Caixa</a></li>
-				<li><a href="../controller/sairController.php"><span class="glyphicon glyphicon-log-out"></span> Sair</a></li>
+				<li><a href="visualizar_livros.php"><span class="glyphicon glyphicon-home"></span> Livros</a></li>
+				<li><a href="cadastrar_livro.php"><span class="glyphicon glyphicon-plus"></span> Cadastrar Livro</a></li>
+				<li><a href="visualizar_vendas.php"><span class="glyphicon glyphicon-list"></span> Vendas</a></li>
+				<li><a href="visualizar_estoque.php"><span class="glyphicon glyphicon-list"></span> Estoque</a></li>
+				<li><a href="visualizar_caixa.php"><span class="glyphicon glyphicon-usd"></span> Caixa</a></li>
+				<li><a href="../controller/sair.php"><span class="glyphicon glyphicon-log-out"></span> Sair</a></li>
 			</ul>
 		</div>
 	</div>
