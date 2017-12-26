@@ -1,2 +1,2 @@
 <?php
-	echo "<script> location.href='view/loginView.php'; </script>";
+	echo "<script> location.href='view/login.php'; </script>";
