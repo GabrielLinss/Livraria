@@ -11,8 +11,9 @@
 	if($l->logar()){
 		session_start();
 		$_SESSION['login'] = $login;
-		echo "<script> location.href='../view/visualizar_livros.php'; </script>";
+		header(location: '../view/visualizar_livros.php');
 	}
 	else{
-		echo "<script> alert('Login ou senha incorretos!'); location.href='../view/login.php'; </script>";
+		echo "<script> alert('Login ou senha incorretos!'); </script>"; 
+		header(location: '../view/login.php');
 	}
