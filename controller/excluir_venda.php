@@ -6,5 +6,6 @@
 	$venda = new Venda();
 
 	if($venda->delete($id)){
-		echo "<script> alert('Registro da venda excluído!'); location.href='../view/visualizar_vendas.php'; </script>";
+		echo "<script> alert('Registro da venda excluído!'); </script";
+		header(location: '../view/visualizar_vendas.php');
 	}

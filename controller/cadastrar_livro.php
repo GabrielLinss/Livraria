@@ -45,5 +45,6 @@
 	$livro->setNome_imagem($nome_imagem);
 
 	if($livro->insert()){
-		echo "<script> alert('Livro cadastrado !'); location.href='../view/cadastrar_livro.php'; </script>";
+		echo "<script> alert('Livro cadastrado !'); </script>";
+		header(location: '../view/cadastrar_livro.php');
 	}

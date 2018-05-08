@@ -4,4 +4,5 @@
 	unset($_SESSION['login']);
 	unset($_SESSION['senha']);
 	session_destroy();
-	echo "<script> alert('Sessão encerrada!'); location.href='../view/login.php'; </script>";
+	echo "<script> alert('Sessão encerrada!'); </script>";
+	header(location: '../view/login.php');
