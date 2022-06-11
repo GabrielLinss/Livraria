@@ -1,7 +1,9 @@
 <?php
-	function __autoload($class_name){ 
-		require_once '../controller/' . $class_name . '.php';
+	function autoload($className){ 
+		require_once '../controller/' . $className . '.php';
 	}
+
+	spl_autoload_register('autoload');
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

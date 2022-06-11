@@ -9,8 +9,7 @@
 	$res = $livro->find($id);
 
 	if($qtd_itens > $res->qtd or $qtd_itens == 0){
-		echo "<script> alert('Estoque insuficiente !'); </script>";
-		header(location: '../view/visualizar_livros.php');
+		header('location: ../view/visualizar_livros.php');
 		return false;
 	}
 
@@ -31,6 +30,5 @@
 	$venda->update_caixa($total);
 
 	if($venda->insert()){
-		echo "<script> alert('Venda realizada !'); </script>";
-		header(location: '../view/visualizar_vendas.php');
+		header('location: ../view/visualizar_vendas.php');
 	}

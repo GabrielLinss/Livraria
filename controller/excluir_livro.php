@@ -6,6 +6,5 @@
 	$livro = new Livro();
 
 	if($livro->delete($id)){
-		echo "<script> alert('Livro removido do estoque !'); </script>";
-		header(location: '../view/visualizar_livros.php');
+		header('location: ../view/visualizar_livros.php');
 	}
